@@ -2,7 +2,7 @@
 Metaheuristic techniques are based on modifying or generating new solutions from existing ones by
 means of the application of different operators. For example, EAs make use of crossover, mutation, and
 selection operators for modifying solutions. In jMetal, any operation altering or generating solutions (or
-sets of them) immplemnts or extends the `Operator` interface:
+sets of them) implements or extends the `Operator` interface:
 
 ``` java
 package org.uma.jmetal.operator;

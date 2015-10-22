@@ -66,7 +66,7 @@ public interface BinarySolution extends Solution<BinarySet> {
 
 assuming that we intend to represent a list of binary variables.
 
-The adopted approach allows to define encodings having mixed variables. For exammple, this interfce defines solutions composed of lists of double and integer values:
+The adopted approach allows to define encodings having mixed variables. For example, this interface defines solutions composed of lists of double and integer values:
 ```java
 package org.uma.jmetal.solution;
 

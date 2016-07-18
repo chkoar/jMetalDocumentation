@@ -1,3 +1,9 @@
 ## Features
 
-This section will contaning a summary of jMetal 5.1 features ....
+This section will contanin a summary of jMetal 5.1 features ....
+
+* Algorithms:
+* Problems:
+* Encodings:
+* Quality indicators:
+* Support for experimental studies:

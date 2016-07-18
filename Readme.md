@@ -1,9 +1,9 @@
 # jMetal 5 Documentation
 
 **jMetal** is an object-oriented Java-based framework for multi-objective optimization with metaheuristics
-(http://jmetal.sourceforge.net).
+(http://jmetal.github.io/jMetal/).
 
-This site contains documentation of the latest version of jMetal (version 5.0), which is currenly under development in https://github.com/jMetal/jMetal 
+This site contains documentation of the latest version of jMetal (version 5.1). The jMetal 5 project is hosted in GitHub: https://github.com/jMetal/jMetal 
 
 ## Table of contents
 1. [Introduction](introduction.md)
@@ -20,4 +20,6 @@ This site contains documentation of the latest version of jMetal (version 5.0), 
  2. [Evaluators](evaluators.md)
 5. [Algorithm templates](algorithmTemplates.md)
 6. [Quality indicators](qualityIndicators.md)
-7. [Javadoc](http://jmetal.github.io/jMetal/apidocs/index.html)
+7. [Changelog of last version](changelog.md)
+8. [Summary of features](features.md)
+9. [Javadoc](http://jmetal.github.io/jMetal/apidocs/index.html)

@@ -7,7 +7,7 @@ The architecture of jMetal 5 relies on four interfaces:
 
 This diagram captures the typical functionality provided by jMetal: an `Algorithm` solves a `Problem` by manipulating a set of potential `Solution` objects through the use of several `Operators`. The `Solution` interface represents the individuals in evolutionary algorithms and the particles in the case of particle swarm optmization algorithms.
 
-Compared to previous versions of jMetal, there is not a class for the concept of population or swarm. In jMetal 5.0 a population is merely a list of solutions (`List<Solution>` in Java).
+Compared to previous versions of jMetal, there is not a class for the concept of population or swarm. In jMetal 5 a population is merely a list of solutions (`List<Solution>` in Java).
 
 
 ###Generics

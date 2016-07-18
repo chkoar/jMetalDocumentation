@@ -18,6 +18,7 @@ This site contains documentation of the latest version of jMetal (version 5.1). 
 4. Peripheral architecture
  1. [Measures](measures.md)
  2. [Evaluators](evaluators.md)
+ 3. [Experimental studies](experimentalStudies.md)
 5. [Algorithm templates](algorithmTemplates.md)
 6. [Quality indicators](qualityIndicators.md)
 7. [Changelog of last version](changelog.md)

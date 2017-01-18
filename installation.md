@@ -3,13 +3,13 @@
 jMetal is a Maven project hosted in GitHub, so there are two ways of getting the software: adding it as a dependence in your own Maven proyect, or getting the source code from https://github.com/jMetal/jMetal.
 
 ### Using jMetal as a Maven/Gradle dependence
-jMetal 5.1 is structured into four submodules:
+jMetal 5.2 is structured into four submodules:
 * `jmetal-core` : Classes of the core architecture plus some utilities, including quality indicators.
 * `jmetal-algorithm` : Implementations of metaheuristics.
 * `jmetal-problem` : Implementations of problems.
 * `jmetal-exec` : Executable programs to configure and run the algorithms plus some utilities.
 
-These modules can be found in the [Central Repository](http://search.maven.org/):
+These modules can be found in the [Central Repository](http://search.maven.org/) (note that the last version is jMetal 5.2):
 ![jMetal in Central Repository](https://github.com/jMetal/jMetalUserManual/blob/master/figures/centralRepository.png)
 
 Here you can get the Maven dependence you need. For example, if your want to use some of the classes in `jmetal-core`, you just have to add this dependence to the `pom.xml` file of your project:
@@ -28,8 +28,8 @@ You can then use the same modules as for Maven. For example to add a dependency 
 ```Groovy
 dependencies {
     compile (
-            [group: 'org.uma.jmetal', name: 'jmetal-core', version: '5.1'],
-            [group: 'org.uma.jmetal', name: 'jmetal-algorithm', version: '5.1']
+            [group: 'org.uma.jmetal', name: 'jmetal-core', version: '5.2'],
+            [group: 'org.uma.jmetal', name: 'jmetal-algorithm', version: '5.2']
     )
 }
 ```

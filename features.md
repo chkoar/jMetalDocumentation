@@ -1,6 +1,6 @@
 ## Features
 
-This section will contanin a summary of jMetal 5.1 features ....
+This section will contanin a summary of jMetal 5.2 features .... (to be completed)
 
 * Algorithms:
 * Problems:

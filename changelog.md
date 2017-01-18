@@ -1,5 +1,23 @@
 ##Changelog 
 
+### Version: jMetal 5.2
+From version 5.2, jmetal requires Java 8.
+
+* New algorithms
+ * [Coral Reef Optimization](https://github.com/jMetal/jMetal/tree/jmetal-5.2/jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/singleobjective/coralreefsoptimization)
+ (S. Salcedo-Sanz, J. Del Ser, S. Gil-López, I. Landa-Torres and J. A. Portilla-Figueras, "The coral reefs optimization algorithm: an efficient meta-heuristic for solving hard optimization problems". 15th Applied Stochastic Models and Data Analysis International Conference, Mataró, Spain, June, 2013).
+ Contribution of Inacio Medeiros
+
+* New features
+  * The classes related to experiments have been refactorized. 
+  * Java 8 parallel streams are used to implement concurrency in the algorithms and in the experiments.
+
+* Bugs fixed
+  * Class [`Rosenbrock`](https://github.com/jMetal/jMetal/blob/master/jmetal-problem/src/main/java/org/uma/jmetal/problem/singleobjective/Rosenbrock.java) didn't set the lower and upper limits.
+  * The default number of objectives in class [`UF9`](https://github.com/jMetal/jMetal/blob/master/jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/UF/UF9.java) was not correct.
+  * A sentece was missing in class [`LZ09`](https://github.com/jMetal/jMetal/blob/master/jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/lz09/LZ09.java).
+  * Fixed a bug in the `prune()` method of class `AdaptiveGridArchive` (thanks to SunnyWind).
+
 ### Version: jMetal 5.1
 * New algorithms
  * [MOEADSTM](https://github.com/jMetal/jMetal/blob/master/jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/multiobjective/moead) 

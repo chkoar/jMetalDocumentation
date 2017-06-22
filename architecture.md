@@ -1,5 +1,4 @@
-<div id='id-architecture'/>
-##Architecture
+## Architecture
 
 The architecture of jMetal 5 relies on four interfaces: 
 
@@ -10,7 +9,7 @@ This diagram captures the typical functionality provided by jMetal: an `Algorith
 Compared to previous versions of jMetal, there is not a class for the concept of population or swarm. In jMetal 5 a population is merely a list of solutions (`List<Solution>` in Java).
 
 
-###Generics
+### Generics
 We can observe the use of parametrized types to model the use of Java generics, which are now widely applied.
  
 The use of generics in the architecture allows to align all the components in metaheuristic so that the compiler can check that everything fit. For example, this code represents all the elements to configure an genetic algorithm to solve a continuous problem:

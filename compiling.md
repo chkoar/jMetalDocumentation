@@ -1,4 +1,4 @@
-##Compiling
+## Compiling
 
 Once you have the source code of jMetal you can use it in to ways: from an IDE or from the command line of a terminal. The IDE alternative is the simplest one and if you are used to the tool you building and runnig algorithms is easy.
 
@@ -8,13 +8,13 @@ Once you have the source code of jMetal you can use it in to ways: from an IDE o
 ![Building with IntelliJ Idea](https://github.com/jMetal/jMetalDocumentation/blob/master/figures/BuildIJICE14.png)  
   
   
-###Eclipse
+### Eclipse
   If the `Project` -> `Build Automatically` is set, Eclipse will automatically build the project. Otherwise,  select  `Project` -> `Build Project`
   
 ![Building with Eclipse](https://github.com/jMetal/jMetalDocumentation/blob/master/figures/BuildEclipse.png)  
 
   
-###Netbeans:
+### Netbeans:
   In Netbeans you have to select `Run` -> `Build Project`
 
 ![Building with Netbeans](https://github.com/jMetal/jMetalDocumentation/blob/master/figures/BuildNetbeans.png)  
